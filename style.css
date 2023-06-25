@@ -1,0 +1,352 @@
+.navbar-nav li{
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+    padding:0px 10px ;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #d3c3a169;
+    
+}
+
+
+.logo:hover {
+    color:#ffb300;
+    box-shadow: 3px 3px 3px 3px #FDC443;
+    padding:4px;
+}
+.logo:hover .fa-cart-shopping {
+    color:#000000
+}
+.fa-cart-shopping {
+    color:#FDC443
+}
+.nav_color {
+    background-color: #c99c52;
+    
+    box-shadow: 3px 3px 10px black;
+}
+.navbar-nav a {
+    font-size: 20px;
+    color: rgb(35, 35, 35);
+    transition:0.3s all ease;
+    position:sticky;
+}
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color:black;
+    
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.hello {
+    color:#FDC443;
+}
+
+.navbar-nav .nav-item i{
+    font-size: 1.2rem;
+    padding:0 10px;
+    cursor: pointer;
+    padding-top:10px;
+    transition:all 0.3s ease;
+}
+.navbar-nav .nav-item i:hover{
+    color:#FDC443;
+}
+
+/*section main*/
+
+
+h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+h5 {
+    font-size: 1rem;
+    font-weight: 400;
+    color:#1d1d1d;
+}
+#home span {
+    color:#7c5024;
+}
+#home {
+    padding-top: 50px;
+}
+#button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline:none;
+    border:none;
+    background-color: #c99c52;
+    color:black;
+    padding:13px;
+    
+}
+#button:hover{
+    background-color:#c99c52;
+    color:white;
+}
+
+.image_header {
+    width:100%;
+    
+}
+.hero_section {
+    background-color: #d3c3a169;
+    width:100%;
+    height:90vh
+}
+.img_div {
+   
+    display: flex;
+    padding-top:50px;
+    align-items: senter;
+    
+    
+}
+.flex {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.for-b {
+    font-weight:bold;
+}
+
+/*nav mobile*/
+
+.navbar-expand-lg .navbar-toggler {
+    border:none;
+    outline: none;
+}
+
+@media screen and (max-width:991px) {
+    #navbarSupportedContent >ul {
+        text-align: right;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin:1rem;
+    }
+    .hero_section {
+        height: 100%;
+    }
+}
+
+/*new Section*/
+#new .one img {
+    width:100%;
+    height:100% ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position :relative;
+    background-size: cover;
+}
+#new .one .details {
+    position:absolute;
+    top :0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    transition:all 0.3s ease;
+}
+#new .one :hover{
+    background-color: #7c50249a;
+}
+#new .one .details button {
+    display: inline-block;
+    font-size: 14px;
+    background: none;
+    color:#2a2a2a;
+    border:none;
+    border-bottom: 1px solid #1d1d1d;
+    padding:2.5px;
+    transform: translateY(70px);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#new .one .details button:hover {
+    color:white;
+    border-bottom: white 1px solid;
+}
+#new .one:nth-child(1) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+#new .one:nth-child(2) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+#new .one:nth-child(3) .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+.details {
+    padding:10px;
+}
+/*band*/
+.img-fluid {
+    transition:all ease 0.5s;
+}
+.img-fluid:hover {
+    opacity: 0.9;
+}
+
+.line {
+    width:10px;
+    height: 1px;
+
+}
+
+
+#feature {
+    background-color: #d3c3a169;
+}
+#clothes {
+    background-color: #d3c3a169;
+}
+#watches {
+    background-color: #d3c3a169;
+}
+
+.product .star i {
+    color: #FDC443;
+    padding-bottom: 10px;
+}
+.product {
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    transition:0.5s all ease;
+    border:2px solid #7c5024;
+    width:100%;
+    height: auto;
+    object-fit: cover;
+
+}
+.product:hover img {
+    transform: scale(1.03);
+   
+    
+}
+.product .buy-button {
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline:none;
+    border:none;
+    background-color: #1d1d1d;
+    color:aliceblue;
+    padding:13px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+    
+}
+.product:hover
+.buy-button {
+    transform:translateY(0);
+    opacity: 1;
+    background-color:#c99c52;
+    color:black
+}
+hr {
+    width: 30px;
+    height: 2px;
+    background-color: #7c5024;
+}
+
+#banner {
+    background-image:url(image/img/banner/2.jpg);
+    width:100%;
+    height:70vh;
+    background-size:cover;
+    background-position: top 60px center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-attachment: fixed;
+}
+#banner h4 {
+    color:#D8D8D8;
+}
+#banner h2 {
+    color:white;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+/*clothes*/
+
+#clothes {
+    background-color: #d3c3a169;
+}
+#shoes {
+    background-color:#d3c3a169;
+}
+.color2 {
+    background-color:black;
+    padding:40px;
+}
+
+.color2 h3,h5 {
+    color:white;
+}
+.color2 p,a {
+    color:rgba(255, 255, 255, 0.499);
+    text-decoration: none;
+}
+.color2 .second_child {
+    display: flex;
+    flex-direction: column;
+}
+.color2 .fourth_child img {
+    width:60px;
+    height: 50px;
+}
+.fa-brands {
+    
+    font-size: 30px; 
+}
+.color2 .circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width:60px;
+    height: 60px;
+    background-color: #D3C3A1;
+    border-radius: 50px;
+    
+    padding:px;
+    margin-left:5px;
+}
+.poster2 {
+    display: flex;
+    flex-direction: row;
+}
+/*shop page*/
+
+#feature > div.row.mx-auto.container > nav > ul > li.page-item.active > a{
+    background-color: #7c5024;
+    color:white;
+}
+#feature > div.row.mx-auto.container > nav > ul > li.page-item >a {
+    background-color: #d3c3a169;
+    color : black;
+}
+#feature > div.row.mx-auto.container > nav > ul>li:nth-child(n):hover a{
+    background-color: #FDC443;
+    color:white;
+}
